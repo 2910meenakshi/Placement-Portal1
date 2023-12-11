@@ -1,10 +1,10 @@
 <?php
 
 //Your Mysql Config
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "placement_portal";
+$servername = "cloud29.mysql.database.azure.com";
+$username = "meenakshi";
+$password = "password29_10";
+$dbname = "db1";
 
 //Create New Database Connection
 $conn = new mysqli($servername, $username, $password, $dbname);
